@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color:#2C3E50 ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vw;
+    height: 10vh;
+    align-items: center;
+    font-size: 24px;
+    position: fixed;
+    width: 100vw;
+}
+
+.hero-section{
+    background-color:#18BC9C ;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+
+    
+}
+.hero-section p{
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+.card-container{
+    display: flex;
+    padding: 0 8vw;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 48vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+
+
+}
+.card img{
+    border-radius: 50%;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card:hover{
+
+    background-color: #18BC9C;
+}
+
+.middle{
+    background-color: #f7f7f7;
+    height: 70px;
+    width: 98vw;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.middle p{
+    text-align: center;
+    color: gray;
+   padding: 20px;
+}
+
+.btn1{
+    background-color: white;
+    height: 35px;
+    width: 380px;
+    text-align: start;
+    
+}
+
+.btn2{
+    background-color: aqua;
+    height: 35px;
+    width: 80px;
+}
+
+.name{
+    font-size: 40px;
+    padding: 70px;
+    text-align: center;
+    color: gray;
+    background-color: #f7f7f7;
+
+}
+.footer{
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10vw;
+    gap: 20px;
+}
+.f1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    
+}
+.f1 a{
+    color: skyblue;
+    text-decoration: none;
+}
